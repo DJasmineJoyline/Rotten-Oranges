@@ -28,8 +28,8 @@ Input: [[0,2]]
 ##### Output: 0
 ##### Explanation:  Since there are already no fresh oranges at minute 0, the answer is just 0.
  
-
-Note:
+</br>
+### Note:
 
 1 <= grid.length <= 10
 ##### 1 <= grid[0].length <= 10
