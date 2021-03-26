@@ -13,14 +13,16 @@ Return the minimum number of minutes that must elapse until no cell has a fresh 
 Example 1:
 
 
+Input: [[2,1,1],[1,1,0],[0,1,1]] </br>   
+Output: 4</br>   
 
-Input: [[2,1,1],[1,1,0],[0,1,1]]
-Output: 4
+
 Example 2:
 
-Input: [[2,1,1],[0,1,1],[1,0,1]]
-Output: -1
-Explanation:  The orange in the bottom left corner (row 2, column 0) is never rotten, because rotting only happens 4-directionally.
+Input: [[2,1,1],[0,1,1],[1,0,1]] </br>   
+Output: -1 </br>   
+Explanation:  The orange in the bottom left corner (row 2, column 0) is never rotten, because rotting only happens 4-directionally.</br>   
+
 Example 3:
 
 Input: [[0,2]]
