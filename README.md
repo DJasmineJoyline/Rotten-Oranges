@@ -19,19 +19,19 @@ Output: 4</br>
 
 Example 2:
 
-Input: [[2,1,1],[0,1,1],[1,0,1]]
-Output: -1   
+##### Input: [[2,1,1],[0,1,1],[1,0,1]]
+##### Output: -1   
 Explanation:  The orange in the bottom left corner (row 2, column 0) is never rotten, because rotting only happens 4-directionally.</br>   
 
 Example 3:
 
 Input: [[0,2]]
-Output: 0
-Explanation:  Since there are already no fresh oranges at minute 0, the answer is just 0.
+##### Output: 0
+##### Explanation:  Since there are already no fresh oranges at minute 0, the answer is just 0.
  
 
 Note:
 
 1 <= grid.length <= 10
-1 <= grid[0].length <= 10
-grid[i][j] is only 0, 1, or 2.
+##### 1 <= grid[0].length <= 10
+##### grid[i][j] is only 0, 1, or 2.
