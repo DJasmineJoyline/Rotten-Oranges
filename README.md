@@ -10,20 +10,19 @@ Return the minimum number of minutes that must elapse until no cell has a fresh 
 
  
 
-Example 1:
-
+#### Example 1:
 
 Input: [[2,1,1],[1,1,0],[0,1,1]]  
 Output: 4</br>   
 ![alt text](https://assets.leetcode.com/uploads/2019/02/16/oranges.png)
 
-Example 2:
+### Example 2:
 
 ##### Input: [[2,1,1],[0,1,1],[1,0,1]]
 ##### Output: -1   
 Explanation:  The orange in the bottom left corner (row 2, column 0) is never rotten, because rotting only happens 4-directionally.</br>   
 
-Example 3:
+### Example 3:
 
 Input: [[0,2]]
 ##### Output: 0
